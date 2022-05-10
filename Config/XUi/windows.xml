@@ -1,0 +1,23 @@
+<configs>
+<!-- Raises TOOLBELT position from -388, 92-->
+<set xpath="/windows/window[@name='windowToolbelt']/@pos">-388,102</set>
+
+<!-- Raises FOOD BAR height from 8 to 20 -->
+<set xpath="/windows/window[@name='windowToolbelt']/rect/rect[@stat_type='Food']/@height">20</set>
+
+<!-- Raises WATER BAR height from 8 to 20 -->
+<set xpath="/windows/window[@name='windowToolbelt']/rect/rect[@stat_type='Water']/@height">20</set>
+
+
+<!-- Adding FOOD BAR percentage meter -->
+<insertAfter xpath="/windows/window[@name='windowToolbelt']/rect/rect[@stat_type='Food']/sprite[@color='[mediumGrey]']">
+<!-- <label depth="7" name="TextContent" pos="0,-2" font_size="18" color="[white]" text="{statcurrent}%" height="34" width="42" justify="center" tooltip_key="Food Percentage" /> -->
+<label depth="10" name="TextContent" pos="3,-3" font_size="16" color="[white]" text="{statcurrent}%" height="20" width="100%" justify="center" tooltip_key="Food Percentage" />
+</insertAfter>
+
+<!-- Adding WATER BAR percentage meter -->
+<insertAfter xpath="/windows/window[@name='windowToolbelt']/rect/rect[@stat_type='Water']/sprite[@color='[mediumGrey]']">
+<!-- <label depth="7" name="TextContent" pos="0,-2" font_size="18" color="[white]" text="{statcurrent}%" height="34" width="42" justify="center" tooltip_key="Food Percentage" /> -->
+<label depth="10" name="TextContent" pos="3,-3" font_size="16" color="[white]" text="{statcurrent}%" height="20" width="100%" justify="center" tooltip_key="Water Percentage" />
+</insertAfter>
+</configs>
