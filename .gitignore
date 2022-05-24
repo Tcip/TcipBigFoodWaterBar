@@ -1,0 +1,59 @@
+# Windows System
+
+# Windows folder config files
+[Dd]esktop.ini
+
+# Windows shortcuts
+*.lnk
+
+# Windows internet shortcuts
+*.url
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+
+# Build
+dev
+bin
+[Rr]elease/
+[Rr]eleases/
+
+
+# Misc
+*.meta
+*.obj
+*.tmp
+*.tmp_proj
+*.log
+*.ahk
+
+
+# COMPRESSION
+*.7z
+*.rar
+*.zip
+
+
+# Visual Studio Code
+
+# VS Code Files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# VS Code Coverage results
+*.coverage
+*.coveragexml
+
+# VS Code Snippets
+*.code-snippets
+
+# VS Code Local History
+.history/
