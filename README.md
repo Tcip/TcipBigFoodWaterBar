@@ -1,5 +1,5 @@
-# TcipBigFoodWaterBar Mod - 7 Days to Die (Alpha 20.4)
-Bigger Food/Water Bar with percentage meter Mod - 7 Days to Die (Alpha 20.4)
+# TcipBigFoodWaterBar Mod - 7 Days to Die
+Bigger Food/Water Bar with percentage meter Mod - 7 Days to Die
 
 ![Screenshot_TcipBigFoodWaterBar.jpg](img/Screenshot_TcipBigFoodWaterBar.jpg)
 
