@@ -11,4 +11,6 @@ Or you can download [master branch here](https://github.com/Tcip/TcipBigFoodWate
 
 
 ## Game Version Compatibility
-Only tested on **Alpha 20.4 (b42)** should work on all stable Beta of 20.4
+
+* Alpha 20.5 b2 ✔
+* Alpha 20.4 b42 ✔
